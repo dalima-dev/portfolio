@@ -5,16 +5,109 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #515151;
+    color: white;
 }
 
 #languages {
     padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
 }
 
-#languages img {
-    float: left;
-    width: 64px;
-    height:64px;
-    object-fit: cover;
+#intro {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: .5rem 2rem;
+    padding: 2rem;
+    border: .3rem solid black;
+    border-radius: .6rem;
+}
+
+#imgh1 {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+} 
+
+#imgh1 h1 {
+    text-align: center;
+}
+
+#photo {
+    max-width: 20%;
+    border: .2rem solid grey;
+    border-radius: 5%;
+}
+
+#contact {
+    padding: 1rem;
+}
+
+section {
+    margin: 1rem 7rem;
+    padding: 1rem;
+}
+
+#sec1div1, #sec1div2 {
+    text-align: center;
+}
+
+#sec1div1 h2, p{
+   margin: 1rem 
+}
+
+#sec1div2 h2{
+   margin: 2rem 0; 
+}
+
+#sec1div2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    list-style: none;
+}
+
+#sec1div2 ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+#sec1div2 ul li img {
+    border-radius: .6rem;
+}
+
+#sec2 h2 {
+    text-align: center;
+}
+
+#sec2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    list-style: none;
+
+}
+
+#sec2 ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+footer {
+    padding: 2rem;
+    background-color: darkgrey;
 }
