@@ -12,6 +12,11 @@ body{
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #languages {
     padding: 1rem;
     display: flex;
@@ -104,8 +109,6 @@ section {
     flex-direction: column;
     gap: 1.5rem;
     padding: 0 1rem;
-    text-decoration: none;
-    color: inherit;
     border: .3rem solid black;
     border-radius: .6rem;
     padding: 1rem;
@@ -118,4 +121,22 @@ section {
 footer {
     padding: 2rem;
     background-color: darkgrey;
+    }
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
 }
+
+footer ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+
