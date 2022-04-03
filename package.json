@@ -4,7 +4,8 @@
   "description": "Meu portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/dalima-dev/portfolio/issues"
   },
-  "homepage": "https://github.com/dalima-dev/portfolio#readme"
+  "homepage": "https://github.com/dalima-dev/portfolio#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
 }
