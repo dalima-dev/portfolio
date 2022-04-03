@@ -11,27 +11,29 @@ let language = "portuguese";
 
 const projects = [
   {
-    title: "titulo",
-    src: "",
+    id: 1,
+    title: "DeVinos",
+    image_src: "/img/devinos128.png",
+    link: "devvinos.herokuapp.com",
   },
 ];
 const stacks = [
   {
     name: "HTML",
-    src: "/icons/html-5.png",
+    image_src: "/icons/html-5.png",
   },
   {
     name: "CSS",
-    src: "/icons/css-3.png",
+    image_src: "/icons/css-3.png",
   },
   {
     name: "JavaScript",
-    src: "/icons/js.png",
+    image_src: "/icons/js.png",
   },
 
   {
     name: "Express",
-    src: "/icons/express.png",
+    image_src: "/icons/express.png",
   },
 ];
 

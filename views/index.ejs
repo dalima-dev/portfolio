@@ -19,7 +19,7 @@
                     <img id="photo" src="/img/photo.jpeg" alt="photo">                
                     <h1>Ola, sou Daniel Alves. <p> Desenvolvedor web Full Stack em formacao. </p></h1>
                 </div>
-                <button id="contact" type="submit">Contato</button>
+                <button id="contact" type="button">Contato</button>
             </div>
 
         </header>
@@ -27,19 +27,19 @@
         <main>
             <section id="sec1">
                 <div id="sec1div1">
-                    <h2>Biografia</h2>          
+                    <h2>BIOGRAFIA</h2>          
                     <p>
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                     </p>
                 </div>
 
                 <div id="sec1div2">
-                    <h2>Stacks</h2>    
+                    <h2>STACKS</h2>    
                     <ul id="stacks">
                        
                         <% stacks.forEach(item => { %>
                             <li>
-                                <img src="<%= item.src %>" alt="<%= item.name %>"/>
+                                <img src="<%= item.image_src %>" alt="<%= item.name %>"/>
                                 <h3><%= item.name %></h3>
                             </li>
                         <% }) %>
@@ -49,16 +49,16 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
             </section>
 
             <section id="sec2">
-                   <h2>Projetos</h2> 
+                   <h2>PROJETOS</h2> 
 
-                    <ul>
+                    <div>
                         <% projects.forEach(item => { %>
-                            <li>
-                                <img src="<%= item.src %>" alt="<%= item.title%>"/>
+                        <a href ="<%= item.link %>" target="_blank">
+                                <img src="<%= item.image_src %>" alt="<%= item.title%>"/>
                                 <h3><%= item.title %></h3>
-                            </li>
+                            </a>
                         <% }) %>
-                    </ul>
+                    </div>
             </section>
         </main>
 
