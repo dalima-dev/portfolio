@@ -5,5 +5,16 @@
 }
 
 body{
-    background-color: blue;
+    background-color: #515151;
+}
+
+#languages {
+    padding: 1rem;
+}
+
+#languages img {
+    float: left;
+    width: 64px;
+    height:64px;
+    object-fit: cover;
 }
