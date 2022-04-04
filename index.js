@@ -12,9 +12,10 @@ const projects = [
     id: 1,
     title: "DeVinos",
     image_src: "/img/devinos128.png",
-    link: "devvinos.herokuapp.com",
+    link: "https://devvinos.herokuapp.com",
   },
 ];
+
 const stacks = [
   {
     name: "HTML",
