@@ -35,6 +35,18 @@ const stacks = [
   },
 ];
 
+app.get("/contact", (req, res) => {
+  res.render("contact");
+});
+
+app.get("/contact-en", (req, res) => {
+  res.render("contact-en");
+});
+
+app.get("/en", (req, res) => {
+  res.render("index-en", { stacks, projects });
+});
+
 app.get("/", (req, res) => {
   res.render("index", { stacks, projects });
 });

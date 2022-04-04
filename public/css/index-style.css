@@ -71,8 +71,15 @@ p {
     font-family: inherit;
     font-size: large;
     color: inherit;
-    background-color: #3c3c3c;
+    background-color: #8c8c8c;
+    border: .2rem solid #3c3c3c;
     border-radius: .5rem;
+    box-shadow: .3rem .3rem #3c3c3c;
+    transition: all .5s ease-in-out;
+}
+
+#contact:hover {
+    transform: scale(1.1);
 }
 
 section {
@@ -114,6 +121,10 @@ section {
 
 #sec2 h2 {
     margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+#sec2 p {
     text-align: center;
 }
 
