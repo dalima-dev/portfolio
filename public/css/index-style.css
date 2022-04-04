@@ -178,3 +178,31 @@ footer ul li h4 {
     border-radius: .5rem;
 }
 
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: .7rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #languages img {
+        width: 10%;
+    }
+
+    #contact {
+        padding: .3rem 1rem;
+        font-family: inherit;
+        font-size: .6rem;
+        color: inherit;
+        background-color: #3c3c3c;
+        border-radius: .5rem;
+    }
+
+}
