@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,10 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: #515151;
-    color: white;
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(60,60,60);
+    background: linear-gradient(227deg, rgba(60,60,60,1) 0%, rgba(81,81,81,1) 50%, rgba(60,60,60,1) 100%);
 }
 
 a {
@@ -17,8 +22,16 @@ a {
     color: inherit;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
 #languages {
-    padding: 1rem;
+    padding: 1rem 2.5rem;
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
@@ -30,8 +43,11 @@ a {
     gap: 1.5rem;
     margin: .5rem 2rem;
     padding: 2rem;
-    border: .3rem solid black;
+    border: .3rem solid #3c3c3c;
     border-radius: .6rem;
+    box-shadow: 1rem 1rem #3c3c3c;
+    background-color: #666666;
+    font-size: larger;
 }
 
 #imgh1 {
@@ -46,16 +62,21 @@ a {
 
 #photo {
     max-width: 20%;
-    border: .2rem solid grey;
+    border: .2rem solid #3c3c3c;
     border-radius: 50%;
 }
 
 #contact {
-    padding: 1rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+    color: inherit;
+    background-color: #3c3c3c;
+    border-radius: .5rem;
 }
 
 section {
-    margin: 1rem 7rem;
+    margin: 1rem 5rem;
     padding: 1rem;
 }
 
@@ -109,9 +130,20 @@ section {
     flex-direction: column;
     gap: 1.5rem;
     padding: 0 1rem;
-    border: .3rem solid black;
-    border-radius: .6rem;
+    border: .2rem solid #3c3c3c;
+    border-radius: .4rem;
     padding: 1rem;
+    background-color: #666666;
+    box-shadow: .5rem .5rem #3c3c3c;
+    transition: all .5s ease-in-out;
+}
+
+#sec2 div a:hover {
+    transform: scale(1.1);
+}
+
+#sec2 div a img {
+    border-radius: .5rem;
 }
 
 #sec2 div a h3 {
@@ -119,9 +151,9 @@ section {
 }
 
 footer {
-    padding: 2rem;
-    background-color: darkgrey;
-    }
+    padding: 1rem 2rem;
+    background-color: #666666;
+}
 
 footer ul {
     display: flex;
@@ -139,4 +171,10 @@ footer ul li {
     gap: 1rem;
 }
 
+footer ul li h4 {
+    padding: .5rem;
+    font-size: 1.2rem;
+    background-color: #8c8c8c;
+    border-radius: .5rem;
+}
 
