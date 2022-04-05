@@ -9,10 +9,24 @@ const PORT = 3000;
 
 const projects = [
   {
-    id: 1,
     title: "DeVinos",
-    image_src: "/img/devinos128.png",
+    image_src: "/img/devinos.png",
     link: "https://devvinos.herokuapp.com",
+  },
+  {
+    title: "Bouncing balls",
+    image_src: "/img/balls.png",
+    link: "https://dalima-dev.github.io/CANVAS/BoucingBalls",
+  },
+  {
+    title: "Particles",
+    image_src: "/img/particles.png",
+    link: "https://dalima-dev.github.io/CANVAS/Particles",
+  },
+  {
+    title: "Emoticons",
+    image_src: "/img/emoticons.png",
+    link: "https://dalima-dev.github.io/Emoticons",
   },
 ];
 

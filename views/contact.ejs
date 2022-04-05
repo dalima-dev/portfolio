@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Contact</title>
+        <title>Contato</title>
         <link rel="stylesheet" href="/css/contact-style.css" type="text/css" media="all">
     </head>
     <body>
@@ -13,11 +13,40 @@
         </header>
 
         <main>
-            main content
+            <p>Estou interessado em uma oportunidade para atuar como desenvolvedor web. Caso queira fazer alguma pergunta, marcar uma entrevista ou me dar uma sugestão, fique a vontade para usar a caixa de mensagem abaixo. Obrigado!</p>
+            <form id="form" action="https://formsubmit.co/dalima.dev@gmail.com" method="POST">
+                
+                    <input type="text" name="name" id="name" placeholder="Nome" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    <textarea id="message" type="text" name="message" id="message" placeholder="Digite sua mensagem aqui..."  required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </main>
 
         <footer>
-           mesmo que o index
+            <ul>
+                <li>
+                    <div>
+                        <img src="/icons/gmail.png" alt="gmail"/>
+                    </div>
+                    <a href="/contact"><h4>E-mail</h4></a>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="/icons/linkedin.png" alt="gmail"/>
+                    </div>
+                    <h4><a href="http://linkedin.com/in/daniel-alves-1bb89222a" target="_blank">
+                    Linkedin</a></h4>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="/icons/github.png" alt="gmail"/>
+                    </div>
+                    <h4><a href="http://www.github.com/dalima-dev" target="_blank">GitHub</a></h4>
+                </li>
+            </ul>
         </footer>
     </body>
 </html>

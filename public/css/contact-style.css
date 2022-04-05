@@ -8,12 +8,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: antiquewhite;
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 2rem;
     background-color: #666666;
 }
@@ -23,10 +24,94 @@ header h1 {
 }
 
 #button {
-    padding: 1.5rem;
+    font-size: larger;
+    padding: 1rem;
     color: inherit;
     text-decoration: none;
     border: .3rem solid #3c3c3c;
     border-radius: .6rem;
     box-shadow: .2rem .2rem #3c3c3c;
+    background-color: #8c8c8c;
+    transition: all .5s ease-in-out;
+}
+
+#button:hover {
+    transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #3c3c3c;
+}
+
+main p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: 4rem 18rem;
+    padding: 2rem;
+    border: .2rem solid #515151;
+    border-radius: .4rem;
+    box-shadow: .4rem .4rem #515151;
+    background-color: #8c8c8c;
+}
+
+#form input {
+    padding: .2rem;
+    font-size: 1.3rem;
+}
+
+#message {
+    font-size: 1.3rem;
+    resize: none;
+    height: 8rem;
+}
+
+#form button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: inherit;
+    background-color: #515151; 
+}
+
+footer {
+    padding: 1rem 2rem;
+    background-color: #666666;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+footer ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+footer ul li h4 {
+    padding: .5rem;
+    font-size: 1.2rem;
+    background-color: #8c8c8c;
+    border-radius: .5rem;
+}
+
+footer ul li a {
+    color: inherit;
+    text-decoration: none;
 }
