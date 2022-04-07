@@ -119,6 +119,19 @@ section {
     border-radius: .6rem;
 }
 
+#react {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 #sec2 h2 {
     margin: 0 0 2rem 0;
     text-align: center;

@@ -37,7 +37,7 @@
                        
                         <% stacks.forEach(item => { %>
                             <li>
-                                <img src="<%= item.image_src %>" alt="<%= item.name %>"/>
+                                <img id="<%= item.id %>" src="<%= item.image_src %>" alt="<%= item.name %>"/>
                                 <h3><%= item.name %></h3>
                             </li>
                         <% }) %>

@@ -32,21 +32,30 @@ const projects = [
 
 const stacks = [
   {
+    id: "html",
     name: "HTML",
     image_src: "/icons/html-5.png",
   },
   {
+    id: "css",
     name: "CSS",
     image_src: "/icons/css-3.png",
   },
   {
+    id: "javascript",
     name: "JavaScript",
     image_src: "/icons/js.png",
   },
 
   {
+    id: "express",
     name: "Express",
     image_src: "/icons/express.png",
+  },
+  {
+    id: "react",
+    name: "React",
+    image_src: "/icons/react.png",
   },
 ];
 
