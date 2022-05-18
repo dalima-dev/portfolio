@@ -9,6 +9,11 @@ const PORT = process.env.PORT || 3000;
 
 const projects = [
   {
+    title: "MedicBank",
+    image_src: "/img/medicbank.png",
+    link: "https://medicbank-react.netlify.app/",
+  },
+  {
     title: "DeVinos",
     image_src: "/img/devinos.png",
     link: "https://devvinos.herokuapp.com",
@@ -32,30 +37,43 @@ const projects = [
 
 const stacks = [
   {
-    id: "html",
-    name: "HTML",
-    image_src: "/icons/html-5.png",
-  },
-  {
-    id: "css",
-    name: "CSS",
-    image_src: "/icons/css-3.png",
+    id: "git",
+    name: "GIT",
+    image_src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
   },
   {
     id: "javascript",
     name: "JavaScript",
     image_src: "/icons/js.png",
   },
-
+  {
+    id: "typescript",
+    name: "TypeScript",
+    image_src:
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+  },
   {
     id: "express",
     name: "Express",
-    image_src: "/icons/express.png",
+    image_src:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+  },
+  {
+    id: "nest",
+    name: "Nest",
+    image_src:
+      "https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg",
   },
   {
     id: "react",
     name: "React",
     image_src: "/icons/react.png",
+  },
+  {
+    id: "tailwindcss",
+    name: "Tailwind CSS",
+    image_src:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
   },
 ];
 
