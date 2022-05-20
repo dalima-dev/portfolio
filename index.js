@@ -52,12 +52,14 @@ const stacks = [
     image_src:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
   },
+  /*
   {
     id: "express",
     name: "Express",
     image_src:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
   },
+  */
   {
     id: "nest",
     name: "Nest",
